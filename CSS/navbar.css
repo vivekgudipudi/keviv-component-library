@@ -1,0 +1,21 @@
+@import url(/CSS/utilities.css);
+
+.navbar{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    padding: var(--md);
+    color: var(--text-color);
+}
+a{
+    text-decoration: none;
+    color: var(--text-color);
+}
+.navbar-heading{
+    font-size: var(--xxl);
+}
+
+.navbar-sub-heading{
+    font-size: var(--xl);
+}

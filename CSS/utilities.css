@@ -1,0 +1,28 @@
+@import url('https://fonts.googleapis.com/css2?family=Jost&display=swap');
+
+body{
+    font-family: 'Jost', sans-serif;
+    background-color: var(--background-color);
+    color: var(--text-color);
+
+}
+
+:root{
+    --xs:8px;
+    --sm:16px;
+    --md:24px;
+    --lg:32px;
+    --xl:40px;
+    --xxl:64px;
+
+    --light: 300;
+    --regular: 400;
+    --semi-bold: 600;
+    --bold: 700;
+    --extra-bold: 900;
+
+    --background-color: #f9fafb;
+    /* --background-color : #111827; */
+    /* --light-text : #e5e7eb; */
+    --text-color: #1f2937;
+}
