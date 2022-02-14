@@ -4,7 +4,8 @@ body{
     font-family: 'Jost', sans-serif;
     background-color: var(--background-color);
     color: var(--text-color);
-
+    padding: 0;
+    margin: 0;
 }
 
 :root{
@@ -23,6 +24,6 @@ body{
 
     --background-color: #f9fafb;
     /* --background-color : #111827; */
-    /* --light-text : #e5e7eb; */
     --text-color: #1f2937;
+    /* --text-color:#e5e7eb ; */
 }

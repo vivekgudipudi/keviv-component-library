@@ -1,5 +1,5 @@
 @import url(/CSS/utilities.css);
-
+/* Landing Page Header*/
 .navbar{
     display: flex;
     align-items: center;
@@ -18,4 +18,38 @@ a{
 
 .navbar-sub-heading{
     font-size: var(--xl);
+}
+/* Components page header*/
+.nav-header{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 100vw;
+}
+
+.nav-heading{
+    font-size: var(--lg);
+}
+
+.nav-component-list{
+    /* display: inline-flex; */
+    display: flex;
+    padding: 0;
+    flex-wrap: wrap;
+}
+.nav-pills{
+   list-style: none;
+   font-size: var(--md);
+   margin: 0 var(--sm); 
+}
+
+.footer{
+    position: fixed;
+    bottom: 0;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    width: 100vw;
 }
