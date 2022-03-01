@@ -1,5 +1,9 @@
 @import url('https://fonts.googleapis.com/css2?family=Jost&display=swap');
 
+@import url('../CSS/introduction.css');
+@import url('../CSS/navbar.css');
+@import url('../components/alerts/alerts.css');
+
 body{
     font-family: 'Jost', sans-serif;
     background-color: var(--background-color);
@@ -37,6 +41,9 @@ body{
     /* --text-color:#e5e7eb ; */
 
     --primary-color: #6B63FF;
+    --danger-color : #F44336;
+    --success-color :#4CAF50;
+    --warning-color : #FF9800;
 }
 
 
@@ -58,4 +65,40 @@ body{
 
 .t5{
     font-size: var(--xs);
+}
+
+.primary-color{
+    background-color: var(--primary-color);
+}
+
+.danger-color{
+    background-color: var(--danger-color);
+}
+
+.success-color{
+    background-color: var(--success-color);
+}
+
+.warning-color{
+    background-color: var(--warning-color);
+}
+
+.light{
+    font-weight: var(--light);
+}
+
+.regular{
+    font-weight: var(--regular);
+}
+
+.semi-bold{
+    font-weight: var(--semi-bold);
+}
+
+.bold{
+    font-weight: var(--bold);
+}
+
+.extra-bold{
+    font-weight: var(--extra-bold);
 }
