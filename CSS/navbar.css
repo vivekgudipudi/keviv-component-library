@@ -1,6 +1,7 @@
 @import url(/CSS/utilities.css);
+
 /* Landing Page Header*/
-.navbar{
+.navbar {
     display: flex;
     align-items: center;
     justify-content: center;
@@ -8,19 +9,22 @@
     padding: var(--md);
     color: var(--text-color);
 }
-a{
+
+a {
     text-decoration: none;
     color: var(--text-color);
 }
-.navbar-heading{
+
+.navbar-heading {
     font-size: var(--xxl);
 }
 
-.navbar-sub-heading{
+.navbar-sub-heading {
     font-size: var(--xl);
 }
+
 /* Components page header*/
-.nav-header{
+.nav-header {
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -28,23 +32,27 @@ a{
     width: 100vw;
 }
 
-.nav-heading{
+.nav-heading {
     font-size: var(--lg);
 }
 
-.nav-component-list{
+.nav-component-list {
     /* display: inline-flex; */
     display: flex;
     padding: 0;
-    flex-wrap: wrap;
-}
-.nav-pills{
-   list-style: none;
-   font-size: var(--md);
-   margin: 0 var(--sm); 
+    /* flex-wrap: wrap; */
+    max-width: 70vw;
+    overflow: auto;
+
 }
 
-.footer{
+.nav-pills {
+    list-style: none;
+    font-size: var(--md);
+    margin: 0 var(--sm);
+}
+
+.footer {
     position: fixed;
     bottom: 0;
     display: flex;
@@ -52,4 +60,21 @@ a{
     align-items: center;
     justify-content: center;
     width: 100vw;
+    background-color: var(--background-color);
+}
+
+
+::-webkit-scrollbar {
+    border-radius: 8px;
+    max-height: 12px;
+    max-width: 12px;
+}
+
+::-webkit-scrollbar-button {
+    display: none;
+}
+
+::-webkit-scrollbar-thumb {
+    background-color: var(--primary-color);
+    border-radius: 8px;
 }
