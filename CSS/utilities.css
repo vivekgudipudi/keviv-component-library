@@ -38,3 +38,24 @@ body{
 
     --primary-color: #6B63FF;
 }
+
+
+.t1{
+    font-size: var(--xxl);
+}
+
+.t2{
+    font-size: var(--lg);
+}
+
+.t3{
+    font-size: var(--md);
+}
+
+.t4{
+    font-size: var(--sm);
+}
+
+.t5{
+    font-size: var(--xs);
+}
