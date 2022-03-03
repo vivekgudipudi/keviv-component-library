@@ -17,11 +17,9 @@
 }
 
 .main-content {
-    /* max-width: 75%; */
     width: 70%;
     height: max-content;
     margin: var(--xs);
-    /* border: 2px solid black; */
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -34,9 +32,8 @@
 }
 
 .main-content-example-box{
-    background-color: #f3f4f6;
+    background-color: var(--half-white);
     border-radius:var(--xs);
-    /* border: 1px solid; */
     margin: var(--md);
     padding: var(--sm);
     display: flex;
