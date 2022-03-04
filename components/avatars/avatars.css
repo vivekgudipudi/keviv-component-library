@@ -1,0 +1,24 @@
+.avatar{
+    border-radius: 50%;
+    height: var(--xl);
+    width: var(--xl);
+    margin: var(--xs);
+}
+
+
+.sm{
+    height: var(--lg);
+    width: var(--lg);
+}
+.md{
+    width: var(--xl);
+    height: var(--xl);
+}
+.lg{
+    width: var(--xxl);
+    height: var(--xxl);
+}
+
+.square{
+    border-radius: var(--xs);
+}
