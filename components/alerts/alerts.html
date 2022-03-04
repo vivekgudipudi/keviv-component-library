@@ -5,7 +5,7 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Introduction</title>
+    <title>Alerts</title>
     <link rel="stylesheet" href="/CSS/utilities.css">
     <link rel="stylesheet"
         href="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/10.6.0/styles/atom-one-dark.min.css"
@@ -14,7 +14,6 @@
 </head>
 
 <body>
-
     <header class="nav">
         <nav class="nav-header">
             <div class="t2">
@@ -22,7 +21,7 @@
             </div>
             <div class="nav-components">
                 <ul class="nav-component-list">
-                    <li class="nav-pills"><a href="/components/alerts/alerts.html">Alert</a></li>
+                    <li class="nav-pills"><a href="#" class="active">Alert</a></li>
                     <li class="nav-pills"><a href="#">Avatar</a></li>
                     <li class="nav-pills"><a href="#">Badge</a></li>
                     <li class="nav-pills"><a href="#">Button</a></li>
@@ -35,28 +34,40 @@
     </header>
     <main class="main">
         <div class="main-content">
-            <div class="t2">
-                Installation
+            <div class="t4">
+                Alerts provide brief notifications which inform users of a process that an app has performed or will
+                perform. They appear temporarily and contain a single line of text directly related to the operation
+                performed.You can use them to display notifications.
             </div>
-            <div class="t3">
-                Just copy paste the below link and start having fun with Keviv UI!!!
+            <div class="main-content-example-box">
+                <div class="alert primary-color">This is a Primary Alert.</div>
+                <div class="alert danger-color">This is an Error Alert.</div>
+                <div class="alert success-color">This is a Success Alert.</div>
+                <div class="alert warning-color">This is a Warning Alert.</div>
             </div>
             <div class="main-content-code-view">
                 <pre>
                     <code class="html">
-        &lt;link rel="stylesheet" href="/CSS/utilities.css"&gt;
+                &lt;div class="alert primary-color"&gt;This is a Primary Alert.&lt;/div&gt;
+
+                &lt;div class="alert danger-color"&gt;This is an Error Alert.&lt;/div&gt;
+
+                &lt;div class="alert success-color"&gt;This is a Success Alert.&lt;/div&gt;
+            
+                &lt;div class="alert warning-color"&gt;This is a Warning Alert.&lt;/div&gt;
                     </code></pre>
             </div>
-            <img src="/assets/introduction_img.svg" alt="hey!" class="main-img">
+
         </div>
     </main>
     <footer class="footer">
         <ul class="nav-component-list">
-            <li class="nav-pills"><a href="/introduction.html" class="active">Introduction</a></li>
+            <li class="nav-pills"><a href="/introduction.html">Introduction</a></li>
             <li class="nav-pills"><a href="#">Colors</a></li>
             <li class="nav-pills"><a href="#">Typograpy</a></li>
         </ul>
     </footer>
+
 
     <script src="//cdnjs.cloudflare.com/ajax/libs/highlight.js/10.6.0/highlight.min.js"></script>
     <script>

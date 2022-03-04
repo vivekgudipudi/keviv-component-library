@@ -1,0 +1,8 @@
+.alert{
+    width: 70%;
+    margin: var(--xs) ;
+    color: var(--background-color);
+    padding: var(--xs) var(--sm);
+    border-radius: var(--xs);
+    text-align: center;
+}
