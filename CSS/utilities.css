@@ -3,6 +3,7 @@
 @import url('../CSS/introduction.css');
 @import url('../CSS/navbar.css');
 @import url('../components/alerts/alerts.css');
+@import url('../components/avatars/avatars.css');
 
 body{
     font-family: 'Jost', sans-serif;
