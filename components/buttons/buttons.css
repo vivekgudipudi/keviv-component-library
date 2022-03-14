@@ -1,0 +1,92 @@
+.btn{
+    padding: 8px 16px;
+    margin: var(--xs);
+    border-radius: 4px;
+    width: max-content;
+    border: none;
+    color: var(--background-color);
+    cursor: pointer;
+}
+
+.outline-primary-color{
+    color: var(--primary-color);
+    border: 1px solid var(--primary-color);
+    background-color: var(--background-color);
+    font-weight: var(--bold);
+}
+
+.outline-success-color{
+    color: var(--success-color);
+    border: 1px solid var(--success-color);
+    background-color: var(--background-color);
+    font-weight: var(--bold);
+}
+
+.outline-warning-color{
+    color: var(--warning-color);
+    border: 1px solid var(--warning-color);
+    background-color: var(--background-color);
+    font-weight: var(--bold);
+}
+
+.outline-danger-color{
+    color: var(--danger-color);
+    border: 1px solid var(--danger-color);
+    background-color: var(--background-color);
+    font-weight: var(--bold);
+}
+
+
+.link-primary-color{
+    color: var(--primary-color);
+    border-bottom: 1px solid var(--primary-color);
+    background-color: var(--background-color);
+    font-weight: var(--bold);
+    border-radius: 0;
+}
+
+
+.link-success-color{
+    color: var(--success-color);
+    border-bottom: 1px solid var(--success-color);
+    background-color: var(--background-color);
+    font-weight: var(--bold);
+    border-radius: 0;
+}
+
+.link-warning-color{
+    color: var(--warning-color);
+    border-bottom: 1px solid var(--warning-color);
+    background-color: var(--background-color);
+    font-weight: var(--bold);
+    border-radius: 0;
+}
+
+.link-danger-color{
+    color: var(--danger-color);
+    border-bottom: 1px solid var(--danger-color);
+    background-color: var(--background-color);
+    font-weight: var(--bold);
+    border-radius: 0;
+}
+
+.btn-icon{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.btn-icon-img{
+    max-height: var(--sm);
+    max-width: var(--sm);
+    padding: 0 var(--xs) 0 0;
+}
+
+.btn-floating-action{
+    border-radius: 50%;
+    font-size: var(--lg);
+}
+
+.active {
+    color: var(--primary-color);
+}
