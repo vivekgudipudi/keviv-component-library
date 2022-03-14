@@ -42,7 +42,6 @@
     border-bottom: 1px solid var(--primary-color);
     background-color: var(--background-color);
     font-weight: var(--bold);
-    border-radius: 0;
 }
 
 
@@ -51,7 +50,6 @@
     border-bottom: 1px solid var(--success-color);
     background-color: var(--background-color);
     font-weight: var(--bold);
-    border-radius: 0;
 }
 
 .link-warning-color{
@@ -59,7 +57,6 @@
     border-bottom: 1px solid var(--warning-color);
     background-color: var(--background-color);
     font-weight: var(--bold);
-    border-radius: 0;
 }
 
 .link-danger-color{
@@ -67,7 +64,6 @@
     border-bottom: 1px solid var(--danger-color);
     background-color: var(--background-color);
     font-weight: var(--bold);
-    border-radius: 0;
 }
 
 .btn-icon{
