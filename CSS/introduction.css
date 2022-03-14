@@ -30,7 +30,13 @@
     max-width: 48%;
     margin: var(--xs);
 }
+.main-content-heading{
+    background-color: var(--half-white);
+    padding: var(--xs);
+    border-radius:var(--xs);
+    margin-top: var(--sm);
 
+}
 .main-content-example-box{
     background-color: var(--half-white);
     border-radius:var(--xs);
