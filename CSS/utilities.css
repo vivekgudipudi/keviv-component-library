@@ -5,6 +5,7 @@
 @import url('../components/alerts/alerts.css');
 @import url('../components/avatars/avatars.css');
 @import url('../components/badges/badges.css');
+@import url('../components/buttons/buttons.css');
 
 body{
     font-family: 'Jost', sans-serif;
