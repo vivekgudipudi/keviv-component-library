@@ -40,8 +40,8 @@
     padding: 1px;
     top: 6px;
     right: 2px;
-    height: var(--sm);
-    width: var(--sm);
+    height: 16px;
+    width: 16px;
     border-radius: 50%;
     background-color: var(--primary-color);
     color: var(--background-color);
