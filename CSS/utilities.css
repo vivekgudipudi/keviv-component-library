@@ -4,6 +4,7 @@
 @import url('../CSS/navbar.css');
 @import url('../components/alerts/alerts.css');
 @import url('../components/avatars/avatars.css');
+@import url('../components/badges/badges.css');
 
 body{
     font-family: 'Jost', sans-serif;
@@ -46,6 +47,7 @@ body{
     --success-color :#4CAF50;
     --warning-color : #FF9800;
     --half-white:#f3f4f6;
+    --light-grey: #e5e7eb;
 }
 
 

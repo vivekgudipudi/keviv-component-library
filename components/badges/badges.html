@@ -1,0 +1,117 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Badges</title>
+    <link rel="stylesheet" href="/CSS/utilities.css">
+    <link rel="stylesheet"
+        href="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/10.6.0/styles/atom-one-dark.min.css"
+        integrity="sha512-Fcqyubi5qOvl+yCwSJ+r7lli+CO1eHXMaugsZrnxuU4DVpLYWXTVoHy55+mCb4VZpMgy7PBhV7IiymC0yu9tkQ=="
+        crossorigin="anonymous" />
+</head>
+
+<body>
+    <header class="nav">
+        <nav class="nav-header">
+            <div class="t2">
+                <a href="/index.html">Keviv UI</a>
+            </div>
+            <div class="nav-components">
+                <ul class="nav-component-list">
+                    <li class="nav-pills"><a href="/components/alerts/alerts.html">Alert</a></li>
+                    <li class="nav-pills"><a href="/components/avatars/avatars.html">Avatar</a></li>
+                    <li class="nav-pills"><a href="/components/badges/badges.html" class="active">Badge</a></li>
+                    <li class="nav-pills"><a href="#">Button</a></li>
+                    <li class="nav-pills"><a href="#">Card</a></li>
+                    <li class="nav-pills"><a href="#">Image</a></li>
+                    <li class="nav-pills"><a href="#">Input</a></li>
+                </ul>
+            </div>
+        </nav>
+    </header>
+    <main class="main">
+        <div class="main-content">
+            <div class="t4">
+                Badges are used to display status of a user or the number of notifications/items.
+            </div>
+            <div class="main-content-heading light">Badge on Avatars</div>
+
+            <div class="main-content-example-box">
+                <div class="badge-box">
+                    <img src="/assets/avtar_female.svg" alt="avatar image" class="avatar">
+                    <div class="badge online"></div>
+                </div>
+                <div class="badge-box">
+                    <img src="/assets/avatar_male.svg" alt="avatar image" class="avatar">
+                    <div class="badge busy"></div>
+                </div>
+                <div class="badge-box">
+                    <img src="/assets/avtar_female.svg" alt="avatar image" class="avatar">
+                    <div class="badge offline"></div>
+                </div>
+
+            </div>
+            <div class="main-content-code-view">
+                <pre>
+                    <code class="html">
+        &lt;div class="badge-box"&gt;
+        &lt;img src="place your image-url here" alt="avatar image" class="avatar"&gt;
+        &lt;div class="badge online"&gt;&lt;/div&gt;
+
+        &lt;div class="badge-box"&gt;
+        &lt;img src="place your image-url here" alt="avatar image" class="avatar"&gt;
+        &lt;div class="badge online"&gt;&lt;/div&gt;
+
+        &lt;div class="badge-box"&gt;
+        &lt;img src="place your image-url here" alt="avatar image" class="avatar"&gt;
+        &lt;div class="badge online"&gt;&lt;/div&gt;
+
+                    </code></pre>
+            </div>
+
+            <div class="main-content-heading light">Badge on Icons</div>
+
+            <div class="main-content-example-box">
+                <div class="badge-box">
+                    <img src="/assets/shopping-cart.svg" alt="avatar image" class="badge-icon">
+                    <div class="badge-number">13</div>
+                </div>
+                <div class="badge-box">
+                    <img src="/assets/envelope.svg" alt="avatar image" class="badge-icon">
+                    <div class="badge-number">06</div>
+                </div>
+
+            </div>
+            <div class="main-content-code-view">
+                <pre>
+                    <code class="html">
+        &lt;div class="badge-box"&gt;
+        &lt;img src="place your image-url here" alt="avatar image" class="badge-icon"&gt;
+        &lt;div class="badge-number"&gt;13&lt;/div&gt;
+                
+        &lt;div class="badge-box"&gt;
+        &lt;img src="place your image-url here" alt="avatar image" class="badge-icon"&gt;
+        &lt;div class="badge-number"&gt;06&lt;/div&gt;
+                    </code></pre>
+            </div>
+        </div>
+    </main>
+    <footer class="footer">
+        <ul class="nav-component-list">
+            <li class="nav-pills"><a href="/introduction.html">Introduction</a></li>
+            <li class="nav-pills"><a href="#">Colors</a></li>
+            <li class="nav-pills"><a href="#">Typograpy</a></li>
+        </ul>
+    </footer>
+
+
+    <script src="//cdnjs.cloudflare.com/ajax/libs/highlight.js/10.6.0/highlight.min.js"></script>
+    <script>
+        hljs.highlightAll();
+    </script>
+</body>
+
+</html>
