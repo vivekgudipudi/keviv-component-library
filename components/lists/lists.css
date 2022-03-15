@@ -1,0 +1,23 @@
+.list-bulleted-item{
+    margin: var(--xs);
+}
+
+.list-stacked-item{
+    list-style: none;
+    width: 100%;
+    padding: 2px 4px;
+}
+
+.list-box{
+    width: 70%;
+    border: 1px solid var(--text-color);
+    display: flex;
+    flex-direction: column;
+    border-radius: 4px;
+    background-color: var(--background-color);
+}
+
+.list-box ul {
+    margin: 0;
+    padding: 0;
+}

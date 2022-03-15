@@ -1,5 +1,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Jost&display=swap');
 
+@import url("https://pro.fontawesome.com/releases/v5.10.0/css/all.css");
+
 @import url('../CSS/introduction.css');
 @import url('../CSS/navbar.css');
 @import url('../components/alerts/alerts.css');
@@ -11,6 +13,12 @@
 @import url('../components/inputs/inputs.css');
 @import url('../components/colors/colors.css');
 @import url('/components/typography/typography.css');
+@import url('/components/lists/lists.css');
+@import url('/components/navigation/navigation.css');
+@import url('/components/rating/rating.css');
+@import url('/components/modal/modal.css');
+@import url('/components/toast/toast.css');
+@import url('/components/grids/grids.css');
 
 body{
     font-family: 'Jost', sans-serif;
@@ -52,6 +60,7 @@ body{
     --half-white:#f3f4f6;
     --light-grey: #e5e7eb;
     --dark-grey:#6b7280;
+    --toast-background-color: #525252;
 }
 
 

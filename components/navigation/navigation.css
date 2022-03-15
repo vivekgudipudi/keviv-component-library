@@ -1,0 +1,27 @@
+.navigation-container{
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-wrap: wrap;
+    padding: var(--xs) var(--sm);
+    margin: var(--xs) 0;
+    background-color: var(--primary-color);
+    color: var(--background-color);
+    border-top-left-radius: var(--xs);
+    border-bottom-right-radius: var(--xs);
+}
+
+.nav-title{
+    font-size: var(--md);
+    color: var(--background-color);
+}
+
+.nav-item-box{
+    margin-left: auto;
+}
+
+.nav-item{
+    color: var(--background-color);
+    padding: 0 4px;
+}
