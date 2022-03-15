@@ -1,5 +1,5 @@
 .btn{
-    padding: 8px 16px;
+    padding: var(--xs) var(--sm);
     margin: var(--xs);
     border-radius: 4px;
     width: max-content;
@@ -44,6 +44,10 @@
     font-weight: var(--bold);
 }
 
+.link-primary-color:hover {
+    border-radius: 4px;
+    border: 0.7px solid var(--primary-color);
+}
 
 .link-success-color{
     color: var(--success-color);
@@ -51,21 +55,30 @@
     background-color: var(--background-color);
     font-weight: var(--bold);
 }
-
+.link-success-color:hover {
+    border-radius: 4px;
+    border: 0.7px solid var(--success-color);
+}
 .link-warning-color{
     color: var(--warning-color);
     border-bottom: 1px solid var(--warning-color);
     background-color: var(--background-color);
     font-weight: var(--bold);
 }
-
+.link-warning-color:hover {
+    border-radius: 4px;
+    border: 0.7px solid var(--warning-color);
+}
 .link-danger-color{
     color: var(--danger-color);
     border-bottom: 1px solid var(--danger-color);
     background-color: var(--background-color);
     font-weight: var(--bold);
 }
-
+.link-danger-color:hover {
+    border-radius: 4px;
+    border: 0.7px solid var(--danger-color);
+}
 .btn-icon{
     display: flex;
     align-items: center;
