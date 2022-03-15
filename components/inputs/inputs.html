@@ -1,0 +1,118 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Inputs | Keviv UI</title>
+    <link rel="stylesheet" href="/CSS/utilities.css">
+    <link rel="stylesheet"
+        href="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/10.6.0/styles/atom-one-dark.min.css"
+        integrity="sha512-Fcqyubi5qOvl+yCwSJ+r7lli+CO1eHXMaugsZrnxuU4DVpLYWXTVoHy55+mCb4VZpMgy7PBhV7IiymC0yu9tkQ=="
+        crossorigin="anonymous" />
+</head>
+
+<body>
+    <header class="nav">
+        <nav class="nav-header">
+            <div class="t2">
+                <a href="/index.html">Keviv UI</a>
+            </div>
+            <div class="nav-components">
+                <ul class="nav-component-list">
+                    <li class="nav-pills"><a href="/components/alerts/alerts.html">Alert</a></li>
+                    <li class="nav-pills"><a href="/components/avatars/avatars.html">Avatar</a></li>
+                    <li class="nav-pills"><a href="/components/badges/badges.html">Badge</a></li>
+                    <li class="nav-pills"><a href="/components/buttons/buttons.html">Button</a></li>
+                    <li class="nav-pills"><a href="/components/cards/cards.html">Card</a></li>
+                    <li class="nav-pills"><a href="/components/images/images.html">Image</a></li>
+                    <li class="nav-pills"><a href="/components/inputs/inputs.html" class="active">Input</a></li>
+                </ul>
+            </div>
+        </nav>
+    </header>
+    <main class="main">
+        <div class="main-content">
+            <div class="t4">
+                Inputs are necessary for user interaction with the website. Inputs are used to take information from the user.
+            </div>
+            <div class="main-content-heading light">Input box</div>
+
+            <div class="main-content-example-box">
+                <div class="input-box-text">
+                    <label for="input-text">Username :</label>    
+                    <input type="text" class="input-text" id="input-text">
+                </div>
+                <div class="input-box-text">
+                    <label for="input-password">Password :</label>    
+                    <input type="password" class="input-text" id="input-password">
+                </div>
+            </div>
+            <div class="main-content-code-view">
+                <pre>
+                <code class="html">
+            &lt;div class="input-box-text"&gt;
+                &lt;label for="input-text"&gt;Username :&lt;/label&gt;    
+                &lt;input type="text" class="input-text" id="input-text"&gt;
+            &lt;/div&gt;
+            &lt;div class="input-box-text"&gt;
+                &lt;label for="input-password"&gt;Password :&lt;/label&gt;    
+                &lt;input type="password" class="input-text" id="input-password"&gt;
+            &lt;/div&gt;
+                </code>
+                </pre>
+            </div>
+            <div class="main-content-heading light">Input box with Validation</div>
+            <div class="main-content-example-box">
+                <div class="input-box-text">
+                    <label for="input-text">Username :</label>    
+                    <input type="text" class="input-text input-success" id="input-text">
+                    <label for="input-text" class="input-success-message">Username available</label>
+                </div>
+                <div class="input-box-text">
+                    <label for="input-password">Password :</label>    
+                    <input type="password" class="input-text  input-error" id="input-password">
+                    <label for="input-password" class="input-error-message">Invalid password</label>
+                </div>
+            </div>
+            <div class="main-content-code-view">
+                <pre>
+                <code class="html">
+            &lt;div class="input-box-text"&gt;
+                &lt;label for="input-text"&gt;Username :&lt;/label&gt;    
+                &lt;input type="text" class="input-text input-success" id="input-text"&gt;
+                &lt;label for="input-text" class="input-success-message"&gt;Username available&lt;/label&gt;
+            &lt;/div&gt;
+            &lt;div class="input-box-text"&gt;
+                &lt;label for="input-password"&gt;Password :&lt;/label&gt;    
+                &lt;input type="password" class="input-text  input-error" id="input-password"&gt;
+                &lt;label for="input-password" class="input-error-message"&gt;Invalid password&lt;/label&gt;
+            &lt;/div&gt;
+                </code>
+                </pre>
+            </div>
+
+            <div class="main-content-example-box">
+                
+            </div>
+
+
+        </div>
+    </main>
+    <footer class="footer">
+        <ul class="nav-component-list">
+            <li class="nav-pills"><a href="/introduction.html">Introduction</a></li>
+            <li class="nav-pills"><a href="#">Colors</a></li>
+            <li class="nav-pills"><a href="#">Typograpy</a></li>
+        </ul>
+    </footer>
+
+
+    <script src="//cdnjs.cloudflare.com/ajax/libs/highlight.js/10.6.0/highlight.min.js"></script>
+    <script>
+        hljs.highlightAll();
+    </script>
+</body>
+
+</html>
