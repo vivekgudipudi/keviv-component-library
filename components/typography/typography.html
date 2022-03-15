@@ -5,7 +5,7 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Inputs | Keviv UI</title>
+    <title>Typography | Keviv UI</title>
     <link rel="stylesheet" href="/CSS/utilities.css">
     <link rel="stylesheet"
         href="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/10.6.0/styles/atom-one-dark.min.css"
@@ -27,7 +27,7 @@
                     <li class="nav-pills"><a href="/components/buttons/buttons.html">Button</a></li>
                     <li class="nav-pills"><a href="/components/cards/cards.html">Card</a></li>
                     <li class="nav-pills"><a href="/components/images/images.html">Image</a></li>
-                    <li class="nav-pills"><a href="/components/inputs/inputs.html" class="active">Input</a></li>
+                    <li class="nav-pills"><a href="/components/inputs/inputs.html">Input</a></li>
                 </ul>
             </div>
         </nav>
@@ -37,65 +37,71 @@
             <div class="t4">
                 Inputs are necessary for user interaction with the website. Inputs are used to take information from the user.
             </div>
-            <div class="main-content-heading light">Input box</div>
-
+            <div class="main-content-heading light">Headings</div>
             <div class="main-content-example-box">
-                <div class="input-box-text">
-                    <label for="input-text">Username :</label>    
-                    <input type="text" class="input-text" id="input-text">
-                </div>
-                <div class="input-box-text">
-                    <label for="input-password">Password :</label>    
-                    <input type="password" class="input-text" id="input-password">
+                <div class="typography-box">
+                <p class="t1">This is t1 text</p>
+                <p class="t2">This is t2 text</p>
+                <p class="t3">This is t3 text</p>
+                <p class="t4">This is t4 text</p>
+                <p class="t5">This is t5 text</p>
                 </div>
             </div>
             <div class="main-content-code-view">
                 <pre>
                 <code class="html">
-            &lt;div class="input-box-text"&gt;
-                &lt;label for="input-text"&gt;Username :&lt;/label&gt;    
-                &lt;input type="text" class="input-text" id="input-text"&gt;
-            &lt;/div&gt;
-            &lt;div class="input-box-text"&gt;
-                &lt;label for="input-password"&gt;Password :&lt;/label&gt;    
-                &lt;input type="password" class="input-text" id="input-password"&gt;
-            &lt;/div&gt;
+                    &lt;p class="t1"&gt;This is t1 text&lt;/p&gt;
+                    &lt;p class="t2"&gt;This is t2 text&lt;/p&gt;
+                    &lt;p class="t3"&gt;This is t3 text&lt;/p&gt;
+                    &lt;p class="t4"&gt;This is t4 text&lt;/p&gt;
+                    &lt;p class="t5"&gt;This is t5 text&lt;/p&gt;
                 </code>
-                </pre>
+            </pre>
             </div>
-            <div class="main-content-heading light">Input box with Validation</div>
+
+            <div class="main-content-heading light">Small text</div>
             <div class="main-content-example-box">
-                <div class="input-box-text">
-                    <label for="input-text">Username :</label>    
-                    <input type="text" class="input-text input-success" id="input-text">
-                    <label for="input-text" class="input-success-message">Username available</label>
-                </div>
-                <div class="input-box-text">
-                    <label for="input-password">Password :</label>    
-                    <input type="password" class="input-text  input-error" id="input-password">
-                    <label for="input-password" class="input-error-message">Invalid password</label>
+                <div class="typography-box">
+                <p class="text-sm">This is small text</p>
                 </div>
             </div>
             <div class="main-content-code-view">
                 <pre>
                 <code class="html">
-            &lt;div class="input-box-text"&gt;
-                &lt;label for="input-text"&gt;Username :&lt;/label&gt;    
-                &lt;input type="text" class="input-text input-success" id="input-text"&gt;
-                &lt;label for="input-text" class="input-success-message"&gt;Username available&lt;/label&gt;
-            &lt;/div&gt;
-            &lt;div class="input-box-text"&gt;
-                &lt;label for="input-password"&gt;Password :&lt;/label&gt;    
-                &lt;input type="password" class="input-text  input-error" id="input-password"&gt;
-                &lt;label for="input-password" class="input-error-message"&gt;Invalid password&lt;/label&gt;
-            &lt;/div&gt;
+                    &lt;p class="text-sm"&gt;This is small text&lt;/p&gt;
                 </code>
-                </pre>
+            </pre>
             </div>
 
+            <div class="main-content-heading light">Centered text</div>
             <div class="main-content-example-box">
-                
+                <div class="typography-box">
+                <p class="text-center">This is centered text</p>
+                </div>
             </div>
+            <div class="main-content-code-view">
+                <pre>
+                <code class="html">
+                &lt;p class="text-center"&gt;This is centered text&lt;/p&gt;
+                </code>
+            </pre>
+            </div>
+
+            <div class="main-content-heading light">Grey text</div>
+
+            <div class="main-content-example-box">
+                <div class="typography-box">
+                <p class="text-grey">This is grey text</p>
+                </div>
+            </div>
+            <div class="main-content-code-view">
+                <pre>
+                <code class="html">
+                &lt;p class="text-grey"&gt;This is grey text&lt;/p&gt;
+                </code>
+            </pre>
+            </div>
+
 
 
         </div>
@@ -104,7 +110,7 @@
         <ul class="nav-component-list">
             <li class="nav-pills"><a href="/introduction.html">Introduction</a></li>
             <li class="nav-pills"><a href="/components/colors/colors.html">Colors</a></li>
-            <li class="nav-pills"><a href="#">Typograpy</a></li>
+            <li class="nav-pills"><a href="/components/typography/typography.html" class="active">Typograpy</a></li>
         </ul>
     </footer>
 

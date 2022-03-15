@@ -1,0 +1,13 @@
+.color-palette{
+    display: flex;
+    flex-wrap : wrap;
+    justify-content: center;
+    align-items: center;
+}
+.color-box{
+    width:5rem;
+    height:5rem;
+    padding: var(--xs);
+    color: white;
+    cursor: pointer;
+}
