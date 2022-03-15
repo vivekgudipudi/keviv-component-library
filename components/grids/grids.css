@@ -1,0 +1,21 @@
+.grid-2-container{
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
+    background-color: var(--light-grey);
+    border-radius: var(--xs);
+}
+
+.grid-item{
+    padding: var(--xs) var(--sm);
+    background-color: var(--primary-color);
+    margin: var(--xs);
+    border-radius: var(--xs);
+    color: var(--background-color);
+}
+
+.grid-3-container{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    background-color: var(--light-grey);
+    border-radius: var(--xs);
+}
