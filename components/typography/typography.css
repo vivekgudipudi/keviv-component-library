@@ -1,0 +1,19 @@
+.typography-box{
+    display: flex;
+    flex-wrap : wrap;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.text-sm{
+    font-size: var(--sm);
+}
+
+.text-center{
+    text-align: center;
+}
+
+.text-grey{
+    color: var(--dark-grey);
+}
