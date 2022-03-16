@@ -54,9 +54,13 @@ body{
     --background-color: #f9fafb;
     --text-color: #1f2937;
     --primary-color: #6B63FF;
+    --primary-color-dark: #524AE6;
     --danger-color : #F44336;
+    --danger-color-dark: #DB2A1D;
     --success-color :#4CAF50;
+    --success-color-dark: #339637;
     --warning-color : #FF9800;
+    --warning-color-dark: #E67F00;
     --half-white:#f3f4f6;
     --light-grey: #e5e7eb;
     --dark-grey:#6b7280;

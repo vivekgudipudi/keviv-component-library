@@ -72,15 +72,8 @@ pre{
 .main-button-box {
     margin: var(--md) 0;
     display: flex;
-    /* flex-direction: column; */
-    /* justify-content: space-evenly; */
 }
 
-
-.btn a {
-    color: var(--background-color);
-    text-decoration: none;
-}
 
 
 
